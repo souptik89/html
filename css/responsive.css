@@ -1,0 +1,249 @@
+/* only small desktops */
+
+
+/* tablets */
+
+
+/* only small tablets */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #hero-area .contents h1 {
+        font-size: 21px;
+        line-height: 23px;
+        padding-bottom: 15px;
+    }
+    #hero-area .contents p {
+        font-size: 14px;
+    }
+    #hero-area .contents .btn-common {
+        text-align: center;
+        margin: 10px auto 0px 20px;
+        font-size: 16px;
+        padding: 11px 20px;
+    }
+    #hero-area .auth-logo {
+        margin-top: 25px;
+    }
+    #hex-box .process {
+        padding: 100px 10px 20px;
+    }
+    #hex-box .process-inner h3 {
+        font-size: 19px;
+    }
+    #hex-box .process:hover {
+        padding: 122px 10px 24px;
+    }
+}
+
+
+/* mobile or only mobile */
+
+@media (max-width: 767px) {
+    #hero-area>.container>.row {
+        flex-direction: column-reverse;
+    }
+    #hero-area .contents,
+    #hero-area .laptop {
+        padding: 90px 0 10px;
+        max-width: 330px;
+        margin: 0px auto;
+    }
+    #hero-area .contents {
+        padding: 10px 0 0px;
+    }
+    #hero-area .contents h1 {
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+    }
+    #hero-area .contents p {
+        font-size: 14px;
+    }
+    #hero-area .contents .btn-common {
+        font-size: 16px;
+        padding: 11px 20px;
+        text-align: center;
+        margin: 25px auto;
+        display: block;
+        max-width: 60%;
+    }
+    #details-slide .owl-theme .owl-controls {
+        position: relative;
+        margin: 10px auto 0px;
+    }
+    .dt-slider-posts .slide-content .points p {
+        font-size: 14px;
+    }
+    .ribbon .text-content {
+        padding: 30px 15px;
+    }
+    .ribbon .text-content .title {
+        font-size: 24px;
+    }
+    .ribbon .text-content .mini-text {
+        padding-bottom: 20px;
+        font-size: 21px;
+    }
+    .ribbon .btn-content {
+        text-align: left;
+        margin-bottom: 30px;
+    }
+    #key-features .key-cards .text-wrap {
+        height: 80px;
+    }
+    #key-features .icon-wrap {
+        height: 80px;
+        width: 80px;
+        padding: 12px;
+    }
+    #key-features .key-cards .text-wrap h4 {
+        font-size: 16px;
+        margin-left: 0px;
+    }
+    #hex-box .process-inner h3 {
+        font-size: 19px;
+    }
+}
+
+
+/* screenshot slider style*/
+
+@media(max-width:1199px) {
+    .slider-container .slider-content {
+        width: 85%;
+        height: 85%;
+    }
+    .slider-container .slider-left {
+        right: 100%;
+    }
+    .slider-container .slider-right {
+        left: 100%;
+    }
+}
+
+@media(max-width:992px) {
+    .screenshots-slider {
+        min-height: 500px;
+    }
+}
+
+@media(max-width:979px) {
+    .slider-container .slider-content {
+        width: 70%;
+        height: 70%;
+    }
+    .slider-container a {
+        font-size: 40px;
+    }
+    .slider-container .slider-left {
+        right: 98%;
+    }
+    .slider-container .slider-right {
+        left: 98%;
+    }
+    .screenshots-slider {
+        min-height: 420px;
+    }
+    .slider-container {
+        width: 100%;
+        height: 100%;
+        top: 0px;
+        margin: 0px auto;
+        left: 50%;
+    }
+    .screenshots-slider {
+        min-height: 330px;
+    }
+    #hex-box .process:hover .icon {
+        width: 80px;
+        left: 80px;
+        top: 25px;
+    }
+    #hex-box .process-inner h3 {
+        font-size: 15px;
+    }
+    #hex-box .process-inner p {
+        font-size: 14px;
+    }
+}
+
+@media(max-width:768px) {
+    .slider-container {
+        position: absolute;
+        left: 50%;
+        top: 0%;
+        transform: translateX(-50%);
+        width: 100%;
+        height: 100%;
+        margin: 0px auto;
+    }
+    .screenshots-slider {
+        min-height: 270px;
+    }
+    #great-screenshots .iq-font-white {
+        padding: 0px 10px;
+        margin-bottom: 0px;
+        font-size: 14px;
+    }
+    #hex-box .process:hover .icon {
+        width: 100px;
+        left: 40px;
+        top: 25px;
+    }
+    #hero-area .laptop {
+        padding: 90px 25px 10px;
+    }
+    #hero-area .auth-logo {
+        margin-top: 0px;
+    }
+    #hero-area .auth-logo .caption {
+        margin-bottom: 8px;
+    }
+    #hero-area .auth-logo img {
+        width: 90px;
+    }
+    #hero-area .scroll-shape {
+        bottom: 20px;
+    }
+    #hero-area .scroll-shape .square {
+        height: 30px;
+        width: 30px;
+    }
+    #hero-area .scroll-shape .green-bar {
+        width: 2px;
+        height: 9px;
+        margin: 4px auto 0px -1px;
+    }
+    .footer-links li:not(:last-child) a {
+        margin-right: 20px;
+    }
+    .social-icons ul li:not(:last-child) a {
+        margin-right: 20px;
+    }
+}
+
+@media(max-width:575px) {
+    .slider-container {
+        position: absolute;
+        left: 50%;
+        top: 0%;
+        transform: translateX(-50%);
+        width: 83%;
+        height: 100%;
+        margin: 0px auto;
+    }
+}
+
+@media(max-width:479px) {
+    .screenshots-slider {
+        min-height: 200px;
+    }
+    .slider-container {
+        width: 80%;
+        height: 100%;
+        left: 50%;
+        top: 0px;
+        margin: 0px auto 0px;
+    }
+}
